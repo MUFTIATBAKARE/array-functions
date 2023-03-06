@@ -16,6 +16,8 @@
  * iv. filter()
  * v. ()
  * */ 
+
+
 // 2
 const language = ['C#', 'Javascript', 'Ruby', 'PHP', 'Python'];
 console.log(language);
@@ -30,14 +32,31 @@ console.log(language);
 language.splice(5,1,'Go','Rust');
 console.log(language);
 
-
-
-
 // 3
 // let fruit = ['apple', 'mango', 'banana'];
 // 		function changeFruit( fruit ) {
 //     			fruit[2] = "orange";
 //     			return fruit;
 // 		}
-//         console.log(changeFruit(fruit))
 // The value of fruit will be ['apple', 'mango', 'orange']
+
+
+// 4
+const arrayOfNumbers = [4,0.5,-89,54]
+const max = arrayOfNumbers.reduce((a,b) => Math.max(a, b), -10000)
+console.log("Maximum value is " + max);
+
+
+// 5
+const arrOfNumbers = [4, 8, 5];
+const valTimesIndex = arrOfNumbers.map(function(num){
+    let result = [];
+    let index = 0;
+    while (index < arrOfNumbers.length) {
+    let x = num * index;
+    index++;
+    result.push(x);
+  }
+    return result;
+})
+console.log(valTimesIndex);
