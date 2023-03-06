@@ -14,7 +14,7 @@
  * ii. concat()
  * iii. map()
  * iv. filter()
- * v. ()
+ * v. flat()
  * */ 
 
 
