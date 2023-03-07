@@ -36,16 +36,16 @@ console.log(language);
 language.splice(5,1,'Go','Rust');
 console.log(language);
 
-// // 3
-// // let fruit = ['apple', 'mango', 'banana'];
-// // 		function changeFruit( fruit ) {
-// //     			fruit[2] = "orange";
-// //     			return fruit;
-// // 		}
-// // The value of fruit will be ['apple', 'mango', 'orange']
+// 3
+// let fruit = ['apple', 'mango', 'banana'];
+// 		function changeFruit( fruit ) {
+//     			fruit[2] = "orange";
+//     			return fruit;
+// 		}
+// The value of fruit will be ['apple', 'mango', 'orange']
 
 
-// // 4 using arrow function
+// 4 using arrow function
 
 const arrayOfNumbers = [-4,0.5,89,54]
 const max = arrayOfNumbers.reduce((value,index) => Math.max(value, index), -100)
@@ -59,7 +59,7 @@ const max2 = arrayOfNumbers2.reduce(function(value,index){
 console.log("Maximum value is " + max2);
 
 
-// // 5
+// 5
 
 const arrOfNumbers = [4, 8, 5];
 const valTimesIndex = arrOfNumbers.map(function(value,index){
